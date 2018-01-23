@@ -1,0 +1,255 @@
+<template>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+
+			<h2>Overview</h2>
+			<p class="intro">The Back-End track focuses on helping you produce PHP web apps using the Laravel framework. The goal of this 10 day track is to give you the last layer of experience before diving into the deep end of META+LAB client products.</p>
+			<p><strong>Mentors: </strong>Luis Guzman, Matt Fritz, Nerces Kazandjian, Dr. Steve Fitzgerald</p>
+
+			<br>
+
+			<h2>First Day Checklist</h2>
+			<div class="table--responsive">
+				<table class="table table--striped table--padded">
+					<tbody>
+						<tr>
+							<td>
+								<div>
+									<strong>Printer Setup</strong>
+								</div>
+								<ol>
+									<li>
+										<div>Mac/Linux - Work with OPS/IT staff member</div>
+										<ul>
+											<li>Must use Eduroam WiFi</li>
+											<li>OPS to set up printeradmin username/password for you</li>
+											<li>They will be able to unlock changes in settings/Printer &mp; Scanners</li>
+											<li>I.P. 130.166.36.20</li>
+											<li>Protocol: Line Printer Daemon - LPD</li>
+											<li>Canon Imagemaker C5250</li>
+										</ul>
+									</li>
+									<li>Windows - check with Nerces K. for help with drivers for printer</li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div>
+									<strong>To Do Checklist</strong>
+								</div>
+								<ol>
+									<li>Introduce yourself to everyone at META+LAB</li>
+									<li>Schedule walkthrough w/ Yazmin Peebles</li>
+									<li>Discuss the Explorer and Creator Roles and Expectations w/ Yazmin Peebles</li>
+									<li>Create a LinkedIn account and connect w/ META+LAB Organization + All Team Members</li>
+									<li>Create a GitHub account and connect w/ META+LAB Organization</li>
+									<li>Join CSUN Canvas META+LAB account and update all profile settings, including uploading your photo and recording your name pronunciation on NameCoach</li>
+									<li>Define your personal goals in META+LAB &amp; email the team at: <a href="mailto:team@metalab.csun.edu">team@metalab.csun.edu</a></li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div>
+									<strong>Important Links</strong>
+								</div>
+								<ol>
+									<li><a href="//tasks.metalab.csun.edu" target="_blank">JIRA</a></li>
+									<li><a href="//wiki.metalab.csun.edu" target="_blank">Wiki (Confluence)</a></li>
+									<li><a href="//csunmetalab.slack.com/signup" target="_blank">Slack Sign Up (use your META+LAB email)</a></li>
+									<li><a href="//csunmetalab.slack.com" target="_blank">META+LAB Slack</a></li>
+									<li>
+										<div>META+LAB Google</div>
+										<ul>
+											<li><a href="//mail.metalab.csun.edu" target="_blank">e-Mail</a></li>
+											<li><a href="//calendar.metalab.csun.edu" target="_blank">Calendar</a></li>
+											<li><a href="//drive.metalab.csun.edu" target="_blank">Drive</a></li>
+										</ul>
+									</li>
+									<li><a href="//www.lynda.com/Developer-Network-Administration-tutorials/Welcome/189066/365610-4.html" target="_blank">Understanding SSH</a></li>
+									<li><a href="//www.digitalocean.com/community/tutorials/iptables-essentials-common-firewall-rules-and-commands" target="_blank">IP Tables</a></li>
+									<li><a href="//jvns.ca/blog/2017/06/07/iptables-basics/" target="_blank">More IP Tables</a></li>
+									<li><a href="//www.linode.com/docs/networking/dns/dns-records-an-introduction" target="_blank">More DNS Info</a></li>
+									<li><a href="//www.youtube.com/watch?v=yPu6qV5byu4" target="_blank">Database and MySQL</a></li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div>
+									<strong>OPS Links to Save and Read</strong>
+								</div>
+								<ol>
+									<li><a href="//drive.google.com/drive/u/1/folders/0By2UGi09QyRGaC1Iczlwc1JVdFk" target="_blank">Main G: Drive for Ops</a></li>
+									<li><a href="//docs.google.com/spreadsheets/d/1UQUbBa-MG3gKT-YdqjhwzAFaIHgJwr21BwwqeGN4noc/edit#gid=1553542174" target="_blank">META+LAB Current Infrastructure Documentation</a></li>
+									<li><a href="//wiki.metalab.csun.edu/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3DOPS%26title%3DNetwork%2BDocumentation&permissionViolation=true" target="_blank">META+LAB Wiki - Network Documentation</a></li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div>
+									<strong>Technical Checklist</strong>
+								</div>
+								<ol>
+									<li>
+										<div>Mac/Linux users have terminal</div>
+										<ul>
+											<li> Windows users need to use Putty</li>
+											<li> MobaXterm can also be used</li>
+										</ul>
+									</li>
+									<li>Github account and Git Client</li>
+									<li><a href="//www.csun.edu/it/vpn" target="_blank">VPN setup (Pulse)</a></li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div>
+									<strong>Command Line Tutorials</strong>
+								</div>
+								<ol>
+									<li>
+										<div>Lynda.com</div>
+										<ul>
+											<li><a href="//www.lynda.com/Linux-tutorials/Learn-Linux-Command-Line-Basics/435539-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3alearn+command+line%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2" target="_blank">Learning Linux Command Line</a></li>
+										</ul>
+									</li>
+									<li>
+										<div>Codecademy.com</div>
+										<ul>
+											<li><a href="//www.codecademy.com/learn/learn-the-command-line" target="_blank">Learn the Command Line</a></li>
+										</ul>
+									</li>
+									<li>
+										<div>Interactive Vim Tutorial</div>
+										<ul>
+											<li><a href="//www.openvim.com/" target="_blank">Open Vim</a></li>
+										</ul>
+									</li>
+									<li>Check out vimtutor on the command line: <code>$ vimtutor</code></li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div>
+									<strong>Git Tutorials</strong>
+								</div>
+								<ol>
+									<li><a href="//try.github.io/levels/1/challenges/1" target="_blank">Git online tutorial</a></li>
+									<li><a href="//wwww.sbf5.com/~cduan/technical/git/" target="_blank">Understanding Git</a></li>
+									<li><a href="//ndpsoftware.com/git-cheatsheet.html" target="_blank">Git Cheatsheet</a></li>
+								</ol>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<h2>Days Two to 10</h2>
+			<div class="table--responsive">
+				<table class="table table--striped table--padded">
+					<tbody>
+						<tr>
+							<td>
+								<div>
+									<strong>AWS and Github Student Accounts</strong>
+								</div>
+								<ol>
+									<li><a href="//aws.amazon.com/" target="_blank">Sign-up for an AWS account HERE</a></li>
+									<li><a href="//www.awseducate.com/Application" target="_blank">Once you have your account, fill out the AWS Educate Application HERE</a></li>
+									<li><a href="//drive.google.com/drive/u/1/folders/0B3AVaBbWELCRSmRwRkhmMTB0ME0" target="_blank">Complete these AWS labs</a></li>
+									<li><a href="//education.github.com/pack" target="_blank">Sign-up for Github Student Pack</a></li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div>
+									<strong>Create Virtual Machine</strong>
+								</div>
+								<ol>
+									<li><a href="//wiki.metalab.csun.edu/display/OPS/Setting+Up+a+Virtual+Machine" target="_blank">Start Set-Up HERE</a></li>
+									<li>Installation of an additional component in existing VM</li>
+									<li><a href="//www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04" target="_blank">Install LAMP Stack</a></li>
+									<li><a href="//www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts" target="_blank">Create vHost to server multiple sites HERE</a></li>
+									<li>Work with OPS team member to work on 39 to set up DNS entries</li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div>
+									<strong>Install Terraform on VM</strong>
+								</div>
+								<ol>
+									<li><a href="//wiki.metalab.csun.edu/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3DOPS%26title%3DHow%2Bto%2BCreate%2Ban%2BAWS%2BInstance%252C%2BLoad%2BBalancer%252C%2Band%2BSecurity%2BGroups%2Busing%2BTerraform&permissionViolation=true" target="_blank">Read Terraform Documentation HERE</a></li>
+									<li>Write a script to create instances on AWS</li>
+									<li>
+										<div>Add to script</div>
+										<ul>
+											<li>Create Security Group</li>
+											<li>Create s3 Bucket</li>
+										</ul>
+									</li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div>
+									<strong>Ansible Playbooks</strong>
+								</div>
+							<ol>
+								<li><a href="//docs.ansible.com/" target="_blank">Read Ansible documentation</a></li>
+								<li>
+									<div>Lynda.com Tutorial</div>
+									<ul>
+										<li><a href="//www.lynda.com/Ansible-tutorials/Learning-Ansible/555799-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3aansible%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2" target="_blank">Learning Ansible</a></li>
+									</ul>
+								</li>
+								<li><a href="//help.ubuntu.com/lts/serverguide/NTP.html" target="_blank">Read about NTP</a></li>
+								<li>Create simple ansible scripts to set-up NTP on a server</li>
+							</ol>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div>
+								<strong>MDF &amp; Network</strong>
+							</div>
+							<ol>
+								<li>Field Trip to MDF and Special Projects Lab</li>
+								<li>Overview of META+LAB Network</li>
+							</ol>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div>
+								<strong>Other Skills</strong>
+							</div>
+							<ol>
+								<li>Production/Proxy walk through</li>
+								<li>Mentor to provide explanations of proxy process</li>
+								<li><a href="//www.addedbytes.com/articles/for-beginners/url-rewriting-for-beginners/" target="_blank">Rewrite URL in Apache</a></li>
+								<li><a href="//www.cheatography.com/davechild/cheat-sheets/mod-rewrite/" target="_blank">Mod Rewrite Cheatsheet</a></li>
+								<li><a href="//www.cheatography.com/davechild/cheat-sheets/regular-expressions/" target="_blank">Regular Expression Cheatsheet</a></li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+          <br><br><br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
