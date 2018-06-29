@@ -146,6 +146,22 @@
 				<table class="table table--striped table--padded">
 					<tbody>
 						<tr>
+							<td>
+								<div>
+									<strong>AWS and Github Student Accounts</strong>
+								</div>
+								<ol>
+									<li><a href="//aws.amazon.com/" target="_blank">Sign-up for an AWS account HERE</a></li>
+									<li><a href="//www.awseducate.com/Application" target="_blank">Once you have your account, fill out the AWS Educate Application HERE</a></li>
+									<ul>
+											<li><a href="https://docs.google.com/document/d/1kI6XPuRASrhMbJO984zvhn9CCBP7jmh03ijjwPIe_Nc/edit" target="_blank">Additional AWS Educate Notes</a></li>
+									</ul>
+									<li><a href="//drive.google.com/drive/u/1/folders/0B3AVaBbWELCRSmRwRkhmMTB0ME0" target="_blank">Complete these AWS labs</a></li>
+									<li><a href="//education.github.com/pack" target="_blank">Sign-up for Github Student Pack</a></li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
 								<td>
 									<div>
 										<strong>Command Line Tutorials</strong>
@@ -189,47 +205,18 @@
 						<tr>
 							<td>
 								<div>
-									<strong>AWS and Github Student Accounts</strong>
-								</div>
-								<ol>
-									<li><a href="//aws.amazon.com/" target="_blank">Sign-up for an AWS account HERE</a></li>
-									<li><a href="//www.awseducate.com/Application" target="_blank">Once you have your account, fill out the AWS Educate Application HERE</a></li>
-									<ul>
-											<li><a href="https://docs.google.com/document/d/1kI6XPuRASrhMbJO984zvhn9CCBP7jmh03ijjwPIe_Nc/edit" target="_blank">Additional AWS Educate Notes</a></li>
-									</ul>
-									<li><a href="//drive.google.com/drive/u/1/folders/0B3AVaBbWELCRSmRwRkhmMTB0ME0" target="_blank">Complete these AWS labs</a></li>
-									<li><a href="//education.github.com/pack" target="_blank">Sign-up for Github Student Pack</a></li>
-								</ol>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<div>
-									<strong>Create Virtual Machine</strong>
-								</div>
-								<ol>
-									<li><a href="//wiki.metalab.csun.edu/display/OPS/Setting+Up+a+Virtual+Machine" target="_blank">Start Set-Up HERE</a></li>
-									<li>Installation of an additional component in existing VM</li>
-									<li><a href="//www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04" target="_blank">Install LAMP Stack</a></li>
-									<li><a href="//www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts" target="_blank">Create vHost to server multiple sites HERE</a></li>
-									<li>Work with OPS team member to work on 39 to set up DNS entries</li>
-								</ol>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<div>
 									<strong>Terraform</strong>
 								</div>
 								<ol>
 									<li><a href="//www.lynda.com/Terraform-tutorials/Learning-Terraform/664818-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3aterraform%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2" target="_blank">Watch Terraform video</a></li>
 									<li><a href="//www.terraform.io/intro/index.html" target="_blank"></a>Terraform documentation</li>
-									<li>EXERCISE: Write a terraform script to with the following items:</li>
+									<li>EXERCISE #1: Write a terraform script to with the following items:</li>
 									  <ul>
 											<li>Create 2 instances on aws</li>
 											<li>Create Security Group allowing port 80</li>
 											<li>Create S3 Bucket</li>
 										</ul>
+										<li>EXERCISE #2: Re-write the script above using terraform modules</li>
 								</ol>
 							</td>
 						</tr>
@@ -247,8 +234,11 @@
 										<li><a href="https://www.lynda.com/Ansible-tutorials/Ansible-Essential-Training/677178-2.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3aansible%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2" target_"_blank">Ansible Essential Training</a></li>
 									</ul>
 								</li>
-								<li>EXERCISE: </li>
-								<li>Create ansible playbook </li>
+								<li>EXERCISE #1: Create ansible playbook to configure the following:</li>
+								<ul>
+									<li>Install LAMP stack</li>
+								</ul>
+								<li>EXERCISE #2: Re-write the playbook using ansible roles</li>
 							</ol>
 						</td>
 					</tr>
@@ -260,6 +250,12 @@
 								<ol>
 									<li><a href="//docker-curriculum.com/" target="_blank">Docker for beginners</a></li>
 									<li><a href="//labs.play-with-docker.com/" target="_blank">Play with Docker</a></li>
+									<li>EXERCISE: </li>
+									<li>Create Dockerfile from ubuntu image with the following</li>
+									<ul>
+										<li>LAMP Stack</li>
+										<li>Copy over a generic apache vHost config file</li>
+									</ul>
 								</ol>
 							</td>
 					</tr>
@@ -289,7 +285,6 @@
 								<li><a href="//www.addedbytes.com/articles/for-beginners/url-rewriting-for-beginners/" target="_blank">Rewrite URL in Apache</a></li>
 								<li><a href="//www.cheatography.com/davechild/cheat-sheets/mod-rewrite/" target="_blank">Mod Rewrite Cheatsheet</a></li>
 								<li><a href="//www.cheatography.com/davechild/cheat-sheets/regular-expressions/" target="_blank">Regular Expression Cheatsheet</a></li>
-								<li><a href="//help.ubuntu.com/lts/serverguide/NTP.html" target="_blank">Read about NTP</a></li>
 								<li><a href="//linuxacademy.com/howtoguides/posts/show/topic/13852-understanding-curl-and-http-headers" target="blank">Understand Curl and HTTP Headers</a></li>
 							</ol>
 						</td>
