@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="150" src="https://raw.githubusercontent.com/csun-metalab/decathlon/master/imgs/meta.png" alt="META+LAB Logo">
+</p>
+
 # META+Decathlon
 > 10 Days of META+LAB Onboarding &amp; Training
 
