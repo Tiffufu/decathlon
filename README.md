@@ -16,3 +16,6 @@
     - [Front-End](https://csun-metalab.github.io/decathlon/front-end)
     - [Back-End](https://csun-metalab.github.io/decathlon/back-end)
     - [Operations](https://csun-metalab.github.io/decathlon/operations)
+
+## License
+This work is open-sourced and licensed under the [GNU General Public License v3+](https://www.gnu.org/licenses/gpl.html). A copy can be found in the `COPYING` file.
